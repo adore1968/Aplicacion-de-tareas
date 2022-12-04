@@ -14,7 +14,7 @@ function TaskTable({ showCompleted = false }) {
 
   return (
     <div>
-      <h1>Tasks</h1>
+      <h1 className="text-lg sm:text-xl font-bold bg-blue-200 p-2 ">Tasks</h1>
       {showTaskRows(showCompleted)}
     </div>
   );

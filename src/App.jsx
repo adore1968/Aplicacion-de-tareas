@@ -7,9 +7,9 @@ import TaskTablesVisibility from "./components/TaskTablesVisibility";
 function App() {
   const { showCompleted } = useGlobalContext();
   return (
-    <div>
-      <section>
-        <div>
+    <div className="min-h-screen bg-gray-800 text-white">
+      <section className="px-5 sm:px-8 flex justify-center">
+        <div className="container sm:max-w-lg mt-14">
           <TaskCreator />
           <TaskTable />
           <TaskTablesVisibility />
